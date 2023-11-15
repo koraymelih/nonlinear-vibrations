@@ -1,16 +1,20 @@
-# Introduction
-This is a MATLAB application with a user interface to perform nonlinear modal analysis.
+## Introduction
+This is an implementation of [a modal superposition method for non-linear structures](https://scholar.google.com/citations?view_op=view_citation&hl=en&user=WqtD98YAAAAJ&citation_for_view=WqtD98YAAAAJ:aqlVkmm33-oC). The traditional method of numerical integration of equations of motion for nonlinear structures is computationally very costly for steady state response analysis. However, `modal superposition method` is a powerful and economical method is developed for the harmonic response analysis of non-linear structures.
+
+The implementation is made using MATLAB GUI module and the interface seems as follows.
+
 | <img src="https://github.com/koraymelih/nonlinear-vibrations/assets/92992383/a3ce2754-e4ed-460e-b96c-4a7dd1d36d19" alt="drawing" width="600"/> |
 |:--:|
 | *The user interface of the application* |
 
-### Requirements from the user
+## Requirements from the user
+The user should provide the below-mentioned matrices in the form of text files given in the repo.
 - System matrices
   - Mass matrix
   - Stiffness matrix
   - Linear damping matrix
   - Structural damping matrix
-- Nonlinearities with type of it (gap nonlinearity) 
+- Nonlinearities with the types 
 
 ### How to use
 The user provides the above-mentinoned system matrices in a text-file as in the sample file.
