@@ -15,12 +15,12 @@ The user should provide the below-mentioned matrices in the form of text files g
   - Linear damping matrix
   - Structural damping matrix
 - Nonlinearities with the types and the  ID's of the affected nodes. The types of nonlinearities allowed are:
-  -cubic stiffness
-  -cubic damping
-  -dry friction
-  -gap nonlinearity
-  -piecewise linear stiffness
-  -square stiffness 
+  - cubic stiffness
+  - cubic damping
+  - dry friction
+  - gap nonlinearity
+  - piecewise linear stiffness
+  - square stiffness 
 
 ### How to use
 The user provides the above-mentinoned system matrices in a text-file as in the sample file.
